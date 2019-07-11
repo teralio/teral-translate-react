@@ -1,4 +1,4 @@
-# teral-translate
+# teral-translate-react
 
 The easiest way to make your react app multilingual 🌎🌍🌏
 
@@ -65,7 +65,7 @@ Continue reading below to see how to handle the various translation scenarios.
 The library can be imported in whatever way you find suitable:
 
 ```jsx
-import Teral from 'teral-translate'
+import Teral from 'teral-translate-react'
 
 <Teral
   apiKey="ABCD"
