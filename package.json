@@ -1,0 +1,53 @@
+{
+  "name": "teral-translate-react",
+  "version": "0.0.1",
+  "description": "The easiest way to make your react app multilingual",
+  "keywords": [
+    "teral",
+    "language",
+    "translate",
+    "translate-react",
+    "translated-react",
+    "translation",
+    "multilingual",
+    "localisation",
+    "intl",
+    "i18n",
+    "internationalization",
+    "locale",
+    "localization",
+    "globalization",
+    "react",
+    "reactjs"
+  ],
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teralio/teral-translate-react.git"
+  },
+  "homepage": "https://github.com/teralio/teral-translate-react#readme",
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "Omar Djibo <omar@teral.io>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}
