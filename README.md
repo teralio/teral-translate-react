@@ -20,8 +20,11 @@ To get started, simply add this in your App:
 ```
 
 * You can get your **APIKEY** by signing up at [https://app.teral.io/signup](https://app.teral.io/signup "https://app.teral.io/signup")
-* **SOURCELANGUAGE** is the 2 digit language code (ISO 639-1 Code) that your app is currently in. Learn more [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements). For a list of supported languages , please check [here ](https://teral.crunch.help/others/list-of-supported-languages).
+* **SOURCELANGUAGE** is the 2 digit language code (ISO 639-1 Code) that your app is currently in. Learn more
+* **CURRENTLANGUAGE** is the 2 digit language code (ISO 639-1 Code) to transale your app to by default. This needs to be a valid language that you selected in the dashboard.
 
+To learn more about the ISO 639-1 Code, click [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
+For a list of supported languages , please check [here ](https://teral.crunch.help/others/list-of-supported-languages).
 
 ## Table of Contents
 
@@ -35,7 +38,7 @@ To get started, simply add this in your App:
 
 Whatever floats your boat:
 
-[npm](https://www.npmjs.com): `npm install teral-translate`
+[npm](https://www.npmjs.com): `npm install teral-translate-react`
 
 <br />
 
@@ -55,8 +58,6 @@ Simply go to [https://app.teral.io/signup](https://app.teral.io/signup "https://
 That is all! Simply add your **ApiKey** and your app is now multilingual. That's right no need to provide an existing mapping. New text will automatically be translated as they are detected.
 
 If you need to edit the translations, you can do so from our [dashboard](https://app.teral.io/translations)
-
-Continue reading below to see how to handle the various translation scenarios.
 
 <br />
 

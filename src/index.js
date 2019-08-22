@@ -13,7 +13,9 @@ export default class Teral extends Component {
             window.Teral.init({
                 'apiKey': this.props.apiKey,
                 'sourceLanguage' : this.props.sourceLanguage,
-                'spa' : true })
+                'currentLanguage': this.props.currentLanguage,
+                'spa' : true
+            })
         }
     }
 
@@ -29,9 +31,11 @@ export default class Teral extends Component {
 Teral.propTypes = {
     apiKey: PropTypes.string,
     sourceLanguage: PropTypes.string,
+    currentLanguage: PropTypes.string,
 };
 
 Teral.defaultProps = {
     apiKey: "",
     sourceLanguage: "en",
+    currentLanguage: ""
 };
